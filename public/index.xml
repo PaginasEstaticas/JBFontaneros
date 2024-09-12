@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BJ Fontaneros</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on BJ Fontaneros</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2024 16:53:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reforms</title>
+      <link>http://localhost:1313/reforms/</link>
+      <pubDate>Wed, 11 Sep 2024 16:53:22 +0200</pubDate>
+      <guid>http://localhost:1313/reforms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Wed, 11 Sep 2024 16:53:16 +0200</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Wed, 11 Sep 2024 16:53:10 +0200</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>a</title>
+      <link>http://localhost:1313/test/a/</link>
+      <pubDate>Wed, 11 Sep 2024 14:13:56 +0200</pubDate>
+      <guid>http://localhost:1313/test/a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>b</title>
+      <link>http://localhost:1313/test/b/</link>
+      <pubDate>Wed, 11 Sep 2024 14:13:56 +0200</pubDate>
+      <guid>http://localhost:1313/test/b/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

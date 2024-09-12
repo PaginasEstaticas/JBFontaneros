@@ -1,0 +1,223 @@
+@import "materialize";
+
+/* CUSTOM FONTS */
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('/Lato-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('/Lato-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('/Lato-Black.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$primary-color: #0f67b1;
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+$secondary-color: #1586e2;
+$background-color: #e5e9ed;
+$non-color: transparent;
+$text-color: #050505;
+
+$white-color: white;
+$transition-delay: .12s;
+
+$primary-font: 'Roboto', sans-serif;
+$lato-regular: 'Lato Regular', sans-serif;
+$lato-bold: 'Lato Bold', sans-serif;
+$lato-black: 'Lato Black', sans-serif;
+
+body {
+    background-color: $background-color;
+    font-family: $primary-font;
+}
+
+header {
+    border-bottom: 9.5px solid $primary-color;
+}
+
+nav {
+    background-color: $white-color;
+}
+
+footer {
+    background-color: $primary-color;
+    // color: lighten($primary-color, 55%);
+}
+
+.header-container {
+    margin: 0 2.5%;
+
+    li.active {
+        background-color: $non-color;
+
+        a {
+            border-bottom: 7.5px solid $secondary-color;
+            background-color: $non-color;
+        }
+    }
+    li {
+        a {
+            color: $text-color !important;
+            font-weight: 400;
+            line-height: 58px;
+            font-family: $primary-font;
+        }
+        a:hover {
+            background-color: $non-color;
+            border-bottom: 7.5px solid $primary-color;
+            transition: border-bottom $transition-delay;
+        }
+    }
+    .brand-logo {
+        transition: transform 0.4s ease-in-out;
+    }
+    .brand-logo:hover {
+        transform: scale(1.05);
+    }
+
+    .brand-svg {
+        height: 48px;
+        margin-top: -7px;
+        vertical-align: middle;
+    }
+    .menu-svg {
+        height: 26px;
+        vertical-align: middle;
+    }
+}
+
+.mobile-menu {
+    li {
+        a {
+            font-family: $primary-font;
+            transition: border-left $transition-delay ease-in-out;
+        }
+        a:hover {
+            background-color: $non-color;
+            border-left: 7.5px solid $primary-color;
+        }
+    }
+    li.active {
+        a {
+            border-left: 7.5px solid $secondary-color;
+        }
+        a:hover{
+            background-color: #05050509;
+        }
+    }
+}
+
+.main-cover {
+    box-shadow: inset 0px 0px 26px 7px rgba(0,0,0,0.5);
+
+    .cover-image {
+        box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.4);
+    }
+    .hero {
+        .main-slogan {
+            font-family: $lato-black;
+            padding-bottom: 20px;
+        }
+        .hero-contact-btn {
+            margin: 30px 0;
+    
+            a {
+                width: 70%;
+                max-width: 620px;
+                background-color: #2aa02a;
+                transition: transform 0.3s ease-in-out;
+            }
+            a:hover {
+                transform: scale(1.04);
+            }
+        }
+    }
+    .dummy-guy {
+        position: absolute;
+        bottom: -15px;
+        right: 5%;
+        width: 300px;
+    }
+}
+
+.footer-container {
+    .about-title {
+        margin-top: 34px;
+    }
+    .about-text {
+        text-align: justify;
+    }
+    .contact-btn {
+        margin-top: 40px;
+
+        a {
+            width: 100%;
+            min-width: 225px;
+            max-width: 400px;
+            background-color: #2aa02a;
+            transition: transform 0.3s ease-in-out;
+        }
+        a:hover {
+            transform: scale(1.04);
+        }
+    }
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        li {
+            // flex: 1;
+            text-align: center; 
+            padding: 5px;
+        }
+    }
+    .copy {
+        margin-bottom: 0px;
+        font-style: italic;
+        font-size: 0.9rem;
+    }
+}
+
+@media #{$medium-and-down} {
+    .main-cover {
+        .hero {
+            top: 10% !important;
+
+            .main-slogan {
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            .small-slogan {
+                text-align: center;
+            }
+            .hero-contact-btn {
+                text-align: center;
+    
+                a {
+                    min-width: 250px;
+                }
+            }
+        }
+    } 
+}
+@media #{$small-and-down} {
+    .main-cover {
+        .hero {
+            top: 3% !important;
+        }
+    }
+}

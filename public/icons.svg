@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;display:none;">
+    <symbol id="icon-brand" viewBox="0 0 200 40">
+        <g id="Artboard1" transform="matrix(1.5625,0,0,0.625,0,0)">
+            <rect x="0" y="0" width="128" height="64" style="fill:none;"/>
+            <g transform="matrix(1.045,0,0,1,-6.29387,-5.68434e-15)">
+                <g transform="matrix(0.887385,0,0,1.8094,19.6344,-22.8362)">
+                    <g transform="matrix(0.476994,0,0,0.611148,19.8368,29.5361)">
+                        <g transform="matrix(11.5752,0,0,11.5752,169.858,16.4791)">
+                        </g>
+                        <text x="15.086px" y="16.479px" style="font-family:'Nunito-Light', 'Nunito';font-weight:300;font-size:11.575px;">F<tspan x="21.961px 31.557px 40.887px 47.693px 56.861px 66.19px 73.668px 82.129px 85.776px 94.943px 98.67px 106.264px 109.991px 118.452px 125.93px 132.806px 142.401px 150.863px 161.501px " y="16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px ">ONTANERÍA Y REFORMA</tspan></text>
+                    </g>
+                    <g transform="matrix(0.630196,0,0,0.807439,2.27894,15.9287)">
+                        <g transform="matrix(16,0,0,16,188.686,16.4791)">
+                        </g>
+                        <text x="15.086px" y="16.479px" style="font-family:'Poppins-SemiBold', 'Poppins';font-weight:600;font-size:16px;">B<tspan x="26.974px 32.382px 46.43px 51.838px 62.558px 67.966px 78.046px 92.206px 105.566px 116.398px 129.454px 142.814px 152.926px 164.782px 178.942px " y="16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px 16.479px "> &amp; J FONTANEROS</tspan></text>
+                    </g>
+                </g>
+                <g transform="matrix(0.427126,0,0,1.11587,-44.8775,-80.1445)">
+                    <g transform="matrix(1,0,0,1,9,30)">
+                        <circle cx="135.5" cy="70.5" r="19.5"/>
+                    </g>
+                    <g transform="matrix(0.501658,0,0,0.501658,64.8138,50.3273)">
+                        <g transform="matrix(18.2841,0,0,18.2841,182.781,105)">
+                        </g>
+                        <text x="131px" y="105px" style="font-family:'LucidaHandwriting-Italic', 'Lucida Handwriting';font-size:18.284px;fill:white;">B &amp; J</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol id="icon-menu" viewBox="0 0 31 31">
+        <g transform="matrix(1,0,0,1,-220,0)">
+            <rect id="Artboard2" x="220" y="0" width="30.582" height="30.582" style="fill:none;"/>
+            <g id="Artboard21" serif:id="Artboard2">
+                <path d="M223,8C221.896,8 221,7.104 221,6C221,4.896 221.896,4 223,4L248,4C249.104,4 250,4.896 250,6C250,7.104 249.104,8 248,8L223,8Z"/>
+                <g transform="matrix(1,0,0,1,1.77636e-15,9.29109)">
+                    <path d="M223,8C221.896,8 221,7.104 221,6C221,4.896 221.896,4 223,4L248,4C249.104,4 250,4.896 250,6C250,7.104 249.104,8 248,8L223,8Z"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,18.6)">
+                    <path d="M223,8C221.896,8 221,7.104 221,6C221,4.896 221.896,4 223,4L248,4C249.104,4 250,4.896 250,6C250,7.104 249.104,8 248,8L223,8Z"/>
+                </g>
+            </g>
+        </g>
+    </symbol>
+</svg>

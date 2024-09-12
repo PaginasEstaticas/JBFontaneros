@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BJ Fontaneros</title>
+    <link>http://localhost:1313/test/</link>
+    <description>Recent content on BJ Fontaneros</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2024 14:13:56 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>a</title>
+      <link>http://localhost:1313/test/a/</link>
+      <pubDate>Wed, 11 Sep 2024 14:13:56 +0200</pubDate>
+      <guid>http://localhost:1313/test/a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>b</title>
+      <link>http://localhost:1313/test/b/</link>
+      <pubDate>Wed, 11 Sep 2024 14:13:56 +0200</pubDate>
+      <guid>http://localhost:1313/test/b/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<div class="nav-container">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>
+
+<div class="slider main-cover">
+    <ul class="slides">
+      <li>
+        {{- $cover := printf "%s%s" $.Site.BaseURL "cover.png" }}
+        <img src="{{ $cover }}" class="cover-image"> <!-- random image -->
+        {{/*  <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->  */}}
+
+        {{/* EL BICHO QUE APARECE EN HOME */}}
+        {{ if eq .Permalink $.Site.BaseURL }}
+            <div class="dummy-guy hide-on-med-and-down">
+                {{- $dummy := printf "%s%s/" $.Site.BaseURL "dumb.png" }}
+                <img src="{{ $dummy }}" alt="Plumber">
+            </div>
+        {{ end }}
+
+        {{/* COMPRUEBA SI ESTÁ EN HOME O NO */}}
+        {{ if eq .Permalink $.Site.BaseURL }}
+            <div class="caption left-align hero">
+                <div class="row">
+                    <div class="col s12 l10">
+                        <h3 class="main-slogan">{{ $.Page.Params.slogan }}</h3>
+                        <h5 class="light grey-text text-lighten-3 small-slogan">{{ $.Page.Params.small_slogan }}</h5>
+                        <div class="hero-contact-btn">
+                            {{- $contact_url := printf "/%s/" $.Site.Params.contact_url }}
+                            <a href="{{ $contact_url }}" class="waves-effect waves-light btn">{{ $.Page.Params.contact_button }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ else }}
+            <div class="caption center-align hero">
+                <h3 class="main-slogan">{{ $.Page.Params.slogan }}</h3>
+                {{ if $.Page.Params.small_slogan }}
+                    <h5 class="light grey-text text-lighten-3 small-slogan">{{ $.Page.Params.small_slogan }}</h5>
+                {{ end }}
+            </div>
+        {{ end }}
+      </li>
+    </ul>
+</div>
